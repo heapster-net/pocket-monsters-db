@@ -1,7 +1,7 @@
 # Pocket Monsters Db
 
 In this task we will create a Pokemon database, similiar to the ones you can find online. We'll need
-to gather informations, populate them into database and then create Flask app that will show us all
+to gather information, populate them into database and then create Flask app that will show us all
 the data.
 
 ## Preparing an environment
@@ -26,4 +26,15 @@ What are the relations between these tables? How can we mark them in postgresql?
 to reflect these relations.
 
 # Import the data
-[To be finished] Write a script that will import data from csv to your database.
+Write a script that will import data from csv to your database using Python. Verify that all your data is in database using `SELECT` statements
+
+# Query the data
+Write `assignment1.py` script inside `scripts` folder which will contains of the following functions:
+
+1. Write a query that will return how many pokemons that weight more 100 are there
+2. Write a query that for every type will return number of pokemons that has this type as the main type (first slot).
+3. Return names of all water pokemon (main or secondary type) that can evolve by leveling after reaching 40 or greater level.
+4. Return all the "pure-blood" pokemons (these that does not have secondary type)
+5. Return 10 highest pokemons that contains "ha" in their names.
+6. Which pokemon is the heaviest steel pokemon.
+
